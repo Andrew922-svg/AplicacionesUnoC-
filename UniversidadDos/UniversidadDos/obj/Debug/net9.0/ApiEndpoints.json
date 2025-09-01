@@ -1,0 +1,286 @@
+[
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ActualizarEstudiante",
+    "RelativePath": "api/Usuario/actualiozar/estudiante/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actualizarEstuDto",
+        "Type": "UniversidadDos.Dto.ActualizarEstuDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ActualizarMateria",
+    "RelativePath": "api/Usuario/actualizar/materia/{nombre}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "NuevaMateria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ActualizarNotas",
+    "RelativePath": "api/Usuario/actualizar/notas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CalificacionUno",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CalificacionDos",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CalificacionTres",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreEstudiante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreMateria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "AgregarNotas",
+    "RelativePath": "api/Usuario/agregar/notas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreEstudiante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreMateria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CalificacionUno",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CalificacionDos",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "CalificacionTres",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "CrearMate",
+    "RelativePath": "api/Usuario/crar/materia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreMaterias",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "UniversidadDos.Models.Materia",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "CrearEstudiante",
+    "RelativePath": "api/Usuario/crear/estudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellido",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Correo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fecha",
+        "Type": "System.Nullable\u00601[[System.DateOnly, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "eliminarEstidiante",
+    "RelativePath": "api/Usuario/eliminar/estudiante/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "EliminarMateria",
+    "RelativePath": "api/Usuario/eliminar/materia/{nombre}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "EliminarNotas",
+    "RelativePath": "api/Usuario/eliminar/notas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NombreEstudiante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NombreMateria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ListarEstudiante",
+    "RelativePath": "api/Usuario/listar/estudiante",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UniversidadDos.Models.Estudiante, UniversidadDos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ListarMaterias",
+    "RelativePath": "api/Usuario/listar/materias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UniversidadDos.Models.Materia, UniversidadDos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UniversidadDos.Controllers.UsuarioController",
+    "Method": "ListarNotas",
+    "RelativePath": "api/Usuario/listar/notas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[UniversidadDos.Models.EstudianteMaterium, UniversidadDos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
