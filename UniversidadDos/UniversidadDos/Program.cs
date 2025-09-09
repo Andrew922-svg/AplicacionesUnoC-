@@ -3,6 +3,15 @@ using Universidad.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<UniversidadDosContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conneccion")));
+builder.Services.AddCors(options => {
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -36,12 +45,14 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
 }
+
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseRouting();
 app.UseAuthorization();
 app.MapStaticAssets();
 app.UseAuthorization();
+app.UseCors("AllowReactApp");
 
 
 app.MapControllerRoute(

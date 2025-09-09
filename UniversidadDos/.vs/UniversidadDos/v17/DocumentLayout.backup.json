@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{17F359DE-1133-4325-B436-13E3F01A75B0}|UniversidadDos\\UniversidadDos.csproj|solutionrelative:universidaddos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17F359DE-1133-4325-B436-13E3F01A75B0}|UniversidadDos\\UniversidadDos.csproj|c:\\politecnico\\semestretres\\aplicaciones_uno\\formularionet\\universidaddos\\universidaddos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17F359DE-1133-4325-B436-13E3F01A75B0}|UniversidadDos\\UniversidadDos.csproj|solutionrelative:universidaddos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17F359DE-1133-4325-B436-13E3F01A75B0}|UniversidadDos\\UniversidadDos.csproj|c:\\politecnico\\semestretres\\aplicaciones_uno\\formularionet\\universidaddos\\universidaddos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17F359DE-1133-4325-B436-13E3F01A75B0}|UniversidadDos\\UniversidadDos.csproj|solutionrelative:universidaddos\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,29 +30,16 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\Program.cs",
               "RelativeDocumentMoniker": "UniversidadDos\\Program.cs",
-              "ToolTip": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\Program.cs",
-              "RelativeToolTip": "UniversidadDos\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "ToolTip": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\Program.cs*",
+              "RelativeToolTip": "UniversidadDos\\Program.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T18:30:54.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\appsettings.json",
-              "RelativeDocumentMoniker": "UniversidadDos\\appsettings.json",
-              "ToolTip": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\appsettings.json",
-              "RelativeToolTip": "UniversidadDos\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-01T18:30:51.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "UniversidadDos\\wwwroot\\js\\site.js",
@@ -64,17 +47,18 @@
               "RelativeToolTip": "UniversidadDos\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-08-29T03:25:50.104Z"
+              "WhenOpened": "2025-08-29T03:25:50.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "UniversidadDos\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Politecnico\\SemestreTres\\Aplicaciones_uno\\FormularioNet\\UniversidadDos\\UniversidadDos\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "UniversidadDos\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAA2wAYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T17:55:37.372Z",
               "EditorCaption": ""
