@@ -25,6 +25,7 @@ namespace UniversidadDos.Controllers
             var estudiante = await _context.Estudiantes
                .Select(e => new EstudiantesDto
                {
+                   Id = e.Id,
                    Nombre = e.Nombre,
                    Apellido = e.Apellido,
                    Correo = e.Correo,
@@ -65,7 +66,7 @@ namespace UniversidadDos.Controllers
             return Ok(new { mensaje = "Estudiante creado con éxito", estudiante.Id });
         }
 
-        [HttpPut("actualiozar/estudiante/{id}")]
+        [HttpPut("actualizar/estudiante/{id}")]
         public async Task<ActionResult> ActualizarEstudiante(int id, ActualizarEstuDto actualizarEstuDto)
         {
             var estudianteActualizado = await _context.Estudiantes.FindAsync(id);
@@ -73,7 +74,7 @@ namespace UniversidadDos.Controllers
             {
                 return NotFound();
             }
-
+            
             estudianteActualizado.Nombre = actualizarEstuDto.Nombre;
             estudianteActualizado.Apellido = actualizarEstuDto.Apellido;
             estudianteActualizado.Correo = actualizarEstuDto.Correo;

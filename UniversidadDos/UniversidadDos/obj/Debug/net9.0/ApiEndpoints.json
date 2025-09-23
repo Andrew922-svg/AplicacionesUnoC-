@@ -2,7 +2,7 @@
   {
     "ContainingType": "UniversidadDos.Controllers.UsuarioController",
     "Method": "ActualizarEstudiante",
-    "RelativePath": "api/Usuario/actualiozar/estudiante/{id}",
+    "RelativePath": "api/Usuario/actualizar/estudiante/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

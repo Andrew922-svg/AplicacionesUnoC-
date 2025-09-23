@@ -93,7 +93,7 @@
         }
       }
     },
-    "/api/Usuario/actualiozar/estudiante/{id}": {
+    "/api/Usuario/actualizar/estudiante/{id}": {
       "put": {
         "tags": [
           "Usuario"
