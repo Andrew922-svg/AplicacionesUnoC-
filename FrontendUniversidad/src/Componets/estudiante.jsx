@@ -104,7 +104,7 @@
         return(
             
             < Container>
-                <h1 className="text-center color-red">Listar estudiantes</h1>
+                <h1 className="text-center mt-5">Listar estudiantes</h1>
                 <table>
                     <thead className="Tabla_primaria text-center aling-middle ">
                         <tr>
